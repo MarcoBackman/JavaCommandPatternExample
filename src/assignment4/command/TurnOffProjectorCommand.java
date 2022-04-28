@@ -10,10 +10,10 @@ public class TurnOffProjectorCommand implements Command {
 	}
  
 	public void execute() {
-		projector.on();
+		projector.off();
 	}
  
 	public void undo() {
-		projector.off();
+		projector.on();
 	}
 }
